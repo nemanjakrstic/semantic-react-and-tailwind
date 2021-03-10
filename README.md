@@ -15,3 +15,8 @@ $ npm run dev
 ```
 
 Open dev tools and take a look at the generated class names.
+
+## Files to Look at
+
+-   src/components/ProductListItem.jsx
+-   src/utils/getTailwind.jsx

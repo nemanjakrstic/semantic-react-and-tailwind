@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import getTailwind from "../utils/getTailwind";
 
-// Use "Tailwind" object for applying classes to elements by calling any method on the object.
-// The first and only argument, when getting the `tw` object, is required and should have the same name as the component.
+// Use "Tailwind" object to apply class names to elements by calling any method on the object.
+// The first and only argument when getting the `tw` object is required and should have the same name as the component.
 // Methods on the object are dynamic but are required to use for styling.
-// "tw.youCanCallAnything()" method is just a higher order function for "classNames" that will inject the component class name as the first argument.
+// `tw.youCanCallAnything()` method is just a higher order function for `classNames` function that will inject the component class name as the first argument.
 
 // Example:
 // `const tw = getTailwind("ProductListItem")`
